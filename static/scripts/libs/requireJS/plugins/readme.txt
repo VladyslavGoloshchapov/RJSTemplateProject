@@ -1,0 +1,1 @@
+updated hbs.js and  i18nprecompile.js to correct paths
