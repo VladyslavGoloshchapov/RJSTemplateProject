@@ -1,17 +1,15 @@
 var require = {
     baseUrl: "/" + appUrl + "/static/scripts",
     paths:{
-        "coffee-script": "libs/coffescript/coffee-script",
-        cs: "libs/requireJS/plugins/cs",
         jquery: "libs/jquery/jquery-1.9.0",
         underscore: "libs/underscore/underscore",
         backboneLib: "libs/backbone/backbone",
-        backbone: "common/backboneMixins",
+        backbone: "appsJS/common/backboneMixins",
         marionette: "libs/marionette/backbone.marionette",
         Handlebars: "libs/handlebars/handlebars",
         json2: "libs/json2/json2",
         hbs:"libs/requireJS/plugins/hbs",
-        less: "libs/less/less-1.3.3.min"
+        bootstrap:"libs/bootstrap/bootstrap"
                                              /*
         BackboneFormLib:"libs/backboneForms/0.10.1",
         BackboneForm:"common/utils/backboneFormLoader",
@@ -30,7 +28,7 @@ var require = {
     shim: {
         underscore: { exports: "_" },
         backboneLib: {
-            deps: ["jquery","underscore"],
+            deps: ["jquery","underscore",'bootstrap'],
             exports: "Backbone"
         },
         backbone: {
@@ -56,11 +54,7 @@ var require = {
         "BackboneFormLib/adapters/backbone.bootstrap-modal": ["BackboneFormLib/backbone-forms","bootstrap"],
         bootstrap:["jquery"],
         dataTables:["jquery"],
-        dataTablesBootstrap:["dataTables","underscore"],
-        "libs/jasmine/jasmine":["jquery"],
-        "libs/jasmine/jasmine-bootstrap-2":["libs/jasmine/jasmine"],
-        "libs/jasmine/jasmine-jquery":["libs/jasmine/jasmine"],
-        "libs/jasmine/runnerHelper":["libs/jasmine/jasmine"]
+        dataTablesBootstrap:["dataTables","underscore"]
     },
     waitSeconds:25,
     hbs: {

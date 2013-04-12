@@ -2,8 +2,8 @@ define [
   "jquery"
   "backbone"
   "marionette"
-  "cs!./ManagementLayout"
-  "cs!./ManagementLayoutExternalTemplate"
+  "./ManagementLayout"
+  "./ManagementLayoutExternalTemplate"
 ],
 ($, Backbone, Marionette, ManagementLayout, ManagementLayoutExternalTemplate) ->
   MyApp = new Marionette.Application();
