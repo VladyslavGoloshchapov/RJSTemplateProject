@@ -7,6 +7,6 @@
 		<div class="_mainRegion span2 well"></div>
 	</div>
 </div>
-<?$appUrl = "second/main";?>
+<?$appUrl = "second";?>
 
 <?php include 'footer.php'; ?>

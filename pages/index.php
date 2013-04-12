@@ -8,6 +8,6 @@
 	</div>
 	<a class="btn" href="secondary.php">Next</a>
 </div>
-<?$appUrl = "first/main";?>
+<?$appUrl = "first";?>
 
 <?php include 'footer.php'; ?>

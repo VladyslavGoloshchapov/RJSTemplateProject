@@ -1,0 +1,7 @@
+define (require, exports, module)->
+	View = require './views/view'
+	Model = require './models/model'
+	BaseController = require 'shared/base_controller'
+
+	class Controller extends BaseController
+		routes: []

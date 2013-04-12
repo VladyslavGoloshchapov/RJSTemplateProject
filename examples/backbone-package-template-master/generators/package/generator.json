@@ -1,0 +1,30 @@
+{
+  "files": [
+    {
+      "from": "main.coffee.hbs",
+      "to": "app/packages/{{name}}/main.coffee"
+    },
+    {
+      "from": "package.coffee.hbs",
+      "to": "app/packages/{{name}}/models/model.coffee"
+    },
+    {
+      "from": "package.coffee.hbs",
+      "to": "app/packages/{{name}}/views/view.coffee"
+    },
+    {
+      "from": "package.coffee.hbs",
+      "to": "app/packages/{{name}}/collection.coffee"
+    },
+    {
+      "from": "tmplate.html.hbs",
+      "to": "app/packages/{{name}}/templates/template.html"
+    }
+  ],
+  "dependencies": [
+  	{
+  		"name": "test",
+  		"params": "{{name}}"
+		}
+  ]
+}

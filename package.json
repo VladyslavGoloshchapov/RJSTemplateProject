@@ -1,0 +1,28 @@
+{
+  "name": "requireJSTemplate",
+  "version": "1.0.0",
+  "description": "template project",
+  "main": "index.js",
+  "dependencies": {
+    "init": "~0.1.2"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-requirejs": "~0.4.0",
+    "grunt-contrib-coffee": "~0.6.6",
+    "grunt-contrib-watch": "~0.3.1",
+    "grunt-contrib-less": "~0.5.0",
+    "grunt-contrib-copy": "~0.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/VladyslavGoloshchapov/RJSTemplateProject.git"
+  },
+  "author": "vgolosh",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "380c4208453e53954f5efe63e9be7c6884004ea1"
+}

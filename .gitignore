@@ -1,1 +1,6 @@
 .idea
+node_modules
+css
+appsJS
+build-js
+production-js
